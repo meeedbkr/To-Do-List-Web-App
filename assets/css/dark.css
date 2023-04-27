@@ -1,0 +1,15 @@
+/* Start Variables */
+:root {
+    --main-color : #9e58ec;
+    --light-color: #fff5;
+    --white-color: #fffa;
+    --section-padding: 60px;
+    --section-background: #07031e;
+    --section-light-background: #1f1a36;
+    --main-duration: 0.5s;
+    --hover-color:#fff;
+}
+
+main{
+    background: var(--section-background) url('../imgs/backgrounds/dark.jpg') no-repeat top center;
+}

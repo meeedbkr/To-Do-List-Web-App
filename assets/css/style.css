@@ -1,0 +1,58 @@
+/* Start Global Rules */
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: poppins, sans-serif;
+    text-transform: capitalize;
+}
+
+.container {
+    margin: auto;
+    padding: 0 2%;
+}
+
+/* End Global Rules */
+/* Start Components */
+
+/* End Components */
+
+/* Start main */
+main {
+}
+
+/* end main */
+/* Start Footer */
+footer {}
+
+/* End Footer */
+
+
+/*media queries*/
+/* Small */
+@media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+}
+
+/* Medium */
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+}
+
+/* Large */
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}
